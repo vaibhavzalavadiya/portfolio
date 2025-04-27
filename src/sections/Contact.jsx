@@ -60,10 +60,10 @@ export default function Contact() {
         </div>
         
         <div className="flex flex-wrap justify-center gap-4 mt-8">
-          <a href="https://linkedin.com/in/yourprofile" className="bg-white dark:bg-slate-800 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://www.linkedin.com/in/zalavadiya-vaibhav-018839233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="bg-white dark:bg-slate-800 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
             <Linkedin className="h-6 w-6 text-blue-600 dark:text-blue-400" />
           </a>
-          <a href="https://github.com/yourusername" className="bg-white dark:bg-slate-800 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+          <a href="https://github.com/vaibhavzalavadiya" className="bg-white dark:bg-slate-800 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
             <Github className="h-6 w-6 text-slate-800 dark:text-slate-300" />
           </a>
           <a href="https://twitter.com/yourusername" className="bg-white dark:bg-slate-800 p-3 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">

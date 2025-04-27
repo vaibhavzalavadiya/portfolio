@@ -14,10 +14,10 @@ function About() {
   ];
 
   return (
-    <section id="about" className="lg:py-24 py-16 px-4">
+    <section id="about" className="lg:py-20 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Section header with accent line */}
-        <div className="flex items-center mb-12">
+        <div className="flex items-center lg:mb-12 mb-8">
           <div className="h-0.5 w-12 bg-gradient-to-r from-cyan-500 to-blue-600 mr-4"></div>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">About Me</h2>
         </div>
@@ -40,9 +40,9 @@ function About() {
             </p>
             
             {/* Experience metrics */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
               <div className="p-4 rounded-lg bg-gray-50 border border-gray-100 text-center">
-                <span className="block text-2xl font-bold text-indigo-600">3+</span>
+                <span className="block text-2xl font-bold text-indigo-600">1+</span>
                 <span className="text-gray-600 text-sm">Years Experience</span>
               </div>
               <div className="p-4 rounded-lg bg-gray-50 border border-gray-100 text-center">

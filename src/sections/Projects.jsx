@@ -30,7 +30,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
   },
   {
-    title: "Edusity – College & University Platform",
+    title: "Edusity – College & University",
     image: EdusityImg,
     description:
       "A sleek and responsive university website built using React. Edusity showcases courses, faculty, events, and admissions info—perfect for modern educational institutions looking to build a strong online presence.",
@@ -97,7 +97,7 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="py-16 lg:py-20 px-4 bg-gradient-to-b from-gray-50 to-gray-100">
+    <section id="projects" className="py-12 lg:py-20 px-4 bg-gradient-to-b from-gray-50 to-gray-100">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-4 text-gray-800">Projects</h2>
         <div className="w-20 h-1 bg-indigo-600 mx-auto mb-12 rounded"></div>
@@ -186,7 +186,7 @@ export default function Projects() {
                         </h3>
                         
                         <div className="mb-4 flex-1">
-                          <p className={`text-gray-600 text-sm ${isExpanded ? "" : "line-clamp-3"}`}>
+                          <p className={`text-gray-600 text-sm ${isExpanded ? "" : "line-clamp-4"}`}>
                             {project.description}
                           </p>
                           {project.description.length > 120 && (
@@ -221,7 +221,7 @@ export default function Projects() {
           </div>
           
           {/* Mobile navigation controls */}
-          <div className="flex justify-between items-center mt-6 sm:hidden">
+          <div className="flex justify-between items-center sm:hidden">
             <button 
               onClick={prevSlide} 
               disabled={currentIndex === 0}

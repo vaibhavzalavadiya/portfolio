@@ -42,7 +42,7 @@ export default function Footer() {
               <h3 className="text-sm font-semibold text-slate-800 dark:text-white mb-4 uppercase tracking-wider">Contact</h3>
               <ul className="space-y-2 text-sm">
                 <li className="text-slate-600 dark:text-slate-300">
-                  <a href="mailto:info@example.com" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">vaibhavzalavadiya3@gmail.com</a>
+                  <a href="mailto:info@example.com" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors break-words">vaibhavzalavadiya3@gmail.com</a>
                 </li>
                 <li className="text-slate-600 dark:text-slate-300">
                   <a href="tel:+1234567890" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">+91 6355981951</a>
@@ -57,10 +57,10 @@ export default function Footer() {
             <div className="text-center md:text-left col-span-2 md:col-span-1">
               <h3 className="text-sm font-semibold text-slate-800 dark:text-white mb-4 uppercase tracking-wider">Connect</h3>
               <div className="flex justify-center md:justify-start space-x-4">
-                <a href="https://github.com/yourusername" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <a href="https://github.com/vaibhavzalavadiya" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   <Github size={20} />
                 </a>
-                <a href="https://linkedin.com/in/yourprofile" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/zalavadiya-vaibhav-018839233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   <Linkedin size={20} />
                 </a>
                 <a href="https://twitter.com/yourusername" className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
